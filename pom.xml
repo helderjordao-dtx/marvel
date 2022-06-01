@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>com.java</groupId>
 	<artifactId>marvel</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<name>marvel</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Marvel project for Spring Boot Coding Challenge</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
