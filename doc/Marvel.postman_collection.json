@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "4a22f417-d61a-4c6d-9ed5-b9115ae837c0",
+		"name": "Marvel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13379752"
+	},
+	"item": [
+		{
+			"name": "Get Marvel Characters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=9412d02c19994d916e56ec1700a9ff74&hash=431140e0f8d521ac0347d573ffc357d2",
+					"protocol": "https",
+					"host": [
+						"gateway",
+						"marvel",
+						"com"
+					],
+					"port": "443",
+					"path": [
+						"v1",
+						"public",
+						"characters"
+					],
+					"query": [
+						{
+							"key": "ts",
+							"value": "1"
+						},
+						{
+							"key": "apikey",
+							"value": "9412d02c19994d916e56ec1700a9ff74"
+						},
+						{
+							"key": "hash",
+							"value": "431140e0f8d521ac0347d573ffc357d2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
